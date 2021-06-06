@@ -99,43 +99,48 @@ p {
     }
 }
 
-.about-section {
+.content-container {
     padding: 110px 20px;
 }
 
-.about-section  h1 {
+.content-container  h1 {
     font-size: 64px;
 }
 
-.about-section h2 {
+.content-container h2 {
     font-family: var(--default-font-family);
     font-size: 18px;
     font-weight: 500;
 }
 
-.about-section-content {
+.content-container h3 {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: var(--default-font-family);
+}
+
+.content {
     margin: 20px;
 }
 
-.about-section img {
+.content-container img {
     border-radius: 15px;
-    max-height: 550px;
 }
 
 @media (max-width: 1200px) {
-    .about-section h1 {
+    .content-container h1 {
         font-size: 45px;
     }
 }
 @media (max-width: 960px) {
-    .about-section {
+    .content-container {
         padding: 0;
     }
-    .about-section-content {
+    .content {
         margin: 50px 0;
         text-align: center;
     }
-    .about-section img {
+    .content-container img {
         display: block;
         margin: 0 auto;
     }
