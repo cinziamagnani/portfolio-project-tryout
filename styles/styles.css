@@ -104,35 +104,6 @@ nav a:hover, nav li.active a {
     padding: 120px 30px 0;
 }
 
-@media (max-width: 1400px) {
-    .project-description {
-        padding: 15px 10px 0;
-    }
-}
-
-@media (max-width: 960px) {
-    h1 {
-        font-size: 50px;
-        line-height: 1.3;
-    }
-    
-    h2 {
-        font-size: 42px;
-    }
-
-    .hero  {
-        padding: 80px 20px;
-    }
-
-    .project-description {
-        text-align: center;
-    }
-
-    nav a {
-        font-size: 14px;
-    }
-}
-
 .content-container {
     padding: 110px 20px;
 }
@@ -161,12 +132,92 @@ nav a:hover, nav li.active a {
     border-radius: 15px;
 }
 
+footer {
+    margin: 60px 0;
+}
+
+footer .contact-box {
+    background-color: var(--secondary-color);
+    padding: 30px 120px;
+    border-radius: 10px;
+}
+
+footer .contact-box h4 {
+    font-size: 48px;
+}
+
+footer .contact-box p {
+    margin: 0;
+}
+
+footer .email-link {
+    text-decoration: none;
+    color: #000000;
+    transition: all 100ms ease-in-out;
+    font-size: 24px;
+}
+
+footer .email-link:hover {
+    color: var(--branding-color);
+}
+
+footer .social-links a {
+    margin: 0 20px;
+    color: var(--branding-color);
+    background-color: var(--secondary-color);
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+    color: #ffffff;
+    background-color: var(--branding-color);
+}
+
+@media (max-width: 1400px) {
+    .project-description {
+        padding: 15px 10px 0;
+    }
+}
+
 @media (max-width: 1200px) {
     .content-container h1 {
         font-size: 45px;
     }
+    footer .contact-box h4 {
+        font-size: 20px;
+    }
+
+    footer .btn-branding {
+        font-size: 16px;
+        padding: 15px 20px;
+    }
 }
+
 @media (max-width: 960px) {
+    h1 {
+        font-size: 50px;
+        line-height: 1.3;
+    }
+    
+    h2 {
+        font-size: 42px;
+    }
+
+    .hero  {
+        padding: 80px 20px;
+    }
+
+    .project-description {
+        text-align: center;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
     .content-container {
         padding: 0;
     }
@@ -177,5 +228,13 @@ nav a:hover, nav li.active a {
     .content-container img {
         display: block;
         margin: 0 auto;
+    }
+
+    footer .contact-box {
+        padding: 30px;
+    }
+    
+    footer .email-link {
+        font-size: 18px;
     }
 }
