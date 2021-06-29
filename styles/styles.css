@@ -105,7 +105,7 @@ nav a:hover, nav li.active a {
 }
 
 .content-container {
-    padding: 110px 20px;
+    padding: 60px 20px;
 }
 
 .content-container  h1 {
@@ -142,7 +142,7 @@ footer .contact-box {
     border-radius: 10px;
 }
 
-footer .contact-box h4 {
+footer .contact-box h3 {
     font-size: 48px;
 }
 
@@ -150,8 +150,18 @@ footer .contact-box p {
     margin: 0;
 }
 
-footer .email-link {
+footer a {
+    color: var(--branding-color);
     text-decoration: none;
+    transition: all 100ms ease-in-out;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+    color: var(--branding-color);
+}
+
+footer .email-link {
     color: #000000;
     transition: all 100ms ease-in-out;
     font-size: 24px;
@@ -163,7 +173,6 @@ footer .email-link:hover {
 
 footer .social-links a {
     margin: 0 20px;
-    color: var(--branding-color);
     background-color: var(--secondary-color);
     font-size: 18px;
     padding: 10px 15px;
@@ -186,7 +195,7 @@ footer .social-links a:hover {
     .content-container h1 {
         font-size: 45px;
     }
-    footer .contact-box h4 {
+    footer .contact-box h3 {
         font-size: 20px;
     }
 
@@ -228,6 +237,7 @@ footer .social-links a:hover {
     .content-container img {
         display: block;
         margin: 0 auto;
+        padding: 20px;
     }
 
     footer .contact-box {
